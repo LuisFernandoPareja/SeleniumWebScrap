@@ -44,7 +44,7 @@ chrome_options.add_argument("--start-maximized")
 
 driver = webdriver.Chrome(options=chrome_options)
 
-google_form = 'https://docs.google.com/forms/d/e/1FAIpQLScrLOx6hjIhi5UksyTsDrJgcBP77U_F1mxyaRWiX5mvgdoU-w/viewform?usp=sf_link'
+google_form = 'YOUR_GOOGLE_FORM_LINK'
 
 driver.get(google_form)
 
